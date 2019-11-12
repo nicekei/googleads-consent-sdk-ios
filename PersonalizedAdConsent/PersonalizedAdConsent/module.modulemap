@@ -5,5 +5,4 @@ framework module PersonalizedAdConsent {
   module * { export * }
 
   header "PACPersonalizedAdConsent.h"
-  header "PACConsentForm.h"
 }

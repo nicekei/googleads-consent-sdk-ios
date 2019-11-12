@@ -7,12 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5A20E048208A788A0012D068 /* PACView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A20E046208A788A0012D068 /* PACView.h */; };
-		5A20E049208A788A0012D068 /* PACView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A20E047208A788A0012D068 /* PACView.m */; };
 		5A3B5DFF20AE30C400027FCB /* module.modulemap in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5A4B555A209239AB000E14B8 /* module.modulemap */; };
-		5A4B54FB2090D7FE000E14B8 /* PACConsentForm.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A4B54FA2090D7FE000E14B8 /* PACConsentForm.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5A5669E120AE287A0061B6B2 /* PersonalizedAdConsent.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A5669CB20AE28170061B6B2 /* PersonalizedAdConsent.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5A647C3D208A7AE4004B88F0 /* PACConsentForm.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A647C3B208A7AE4004B88F0 /* PACConsentForm.m */; };
 		5A647C40208A7C94004B88F0 /* PACError.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A647C3E208A7C94004B88F0 /* PACError.h */; };
 		5A647C41208A7C94004B88F0 /* PACError.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A647C3F208A7C94004B88F0 /* PACError.m */; };
 		5A92D2B02076961800FFE51D /* PACPersonalizedAdConsent.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A92D2A22076961800FFE51D /* PACPersonalizedAdConsent.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -33,13 +29,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		5A20E046208A788A0012D068 /* PACView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PACView.h; sourceTree = "<group>"; };
-		5A20E047208A788A0012D068 /* PACView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PACView.m; sourceTree = "<group>"; };
-		5A4B54FA2090D7FE000E14B8 /* PACConsentForm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PACConsentForm.h; sourceTree = "<group>"; };
 		5A4B555A209239AB000E14B8 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
 		5A5022F020AF782A00E98A1F /* PersonalizedAdConsent.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = PersonalizedAdConsent.bundle; sourceTree = "<group>"; };
 		5A5669CB20AE28170061B6B2 /* PersonalizedAdConsent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonalizedAdConsent.h; sourceTree = "<group>"; };
-		5A647C3B208A7AE4004B88F0 /* PACConsentForm.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PACConsentForm.m; sourceTree = "<group>"; };
 		5A647C3E208A7C94004B88F0 /* PACError.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PACError.h; sourceTree = "<group>"; };
 		5A647C3F208A7C94004B88F0 /* PACError.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PACError.m; sourceTree = "<group>"; };
 		5A92D29F2076961800FFE51D /* PersonalizedAdConsent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PersonalizedAdConsent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -85,10 +77,6 @@
 				5A92D2B92076965D00FFE51D /* PACPersonalizedAdConsent.m */,
 				5A647C3E208A7C94004B88F0 /* PACError.h */,
 				5A647C3F208A7C94004B88F0 /* PACError.m */,
-				5A20E046208A788A0012D068 /* PACView.h */,
-				5A20E047208A788A0012D068 /* PACView.m */,
-				5A4B54FA2090D7FE000E14B8 /* PACConsentForm.h */,
-				5A647C3B208A7AE4004B88F0 /* PACConsentForm.m */,
 				5A92D2A32076961800FFE51D /* Info.plist */,
 			);
 			path = PersonalizedAdConsent;
@@ -103,8 +91,6 @@
 			files = (
 				5A647C40208A7C94004B88F0 /* PACError.h in Headers */,
 				5A5669E120AE287A0061B6B2 /* PersonalizedAdConsent.h in Headers */,
-				5A4B54FB2090D7FE000E14B8 /* PACConsentForm.h in Headers */,
-				5A20E048208A788A0012D068 /* PACView.h in Headers */,
 				5A92D2B02076961800FFE51D /* PACPersonalizedAdConsent.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -180,8 +166,6 @@
 			files = (
 				5A92D2BB2076965D00FFE51D /* PACPersonalizedAdConsent.m in Sources */,
 				5A647C41208A7C94004B88F0 /* PACError.m in Sources */,
-				5A647C3D208A7AE4004B88F0 /* PACConsentForm.m in Sources */,
-				5A20E049208A788A0012D068 /* PACView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
